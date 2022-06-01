@@ -25,6 +25,13 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+#navbarposts{
+
+  background-color: black;
+}
+
+
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -311,6 +318,12 @@
 .noUi-target {
   position: relative;
   direction: ltr;
+}
+
+.CARROSSELSLIDES{
+padding-left: 300px;
+padding-right: 300px;
+padding-bottom: 30px;
 }
 
 .noUi-base {
@@ -2887,7 +2900,7 @@ textarea.form-control {
 .nav-text>li>a:focus,
 .nav-icons>li>a:hover,
 .nav-icons>li>a:focus {
-  background-color: transparent;
+  background-color: black;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -3333,6 +3346,11 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 .navbar-toggle {
   outline: 0 !important;
 }
+#navbarNav{
+background-color: green;
+
+}
+
 
 /*           Animations              */
 
@@ -5030,7 +5048,7 @@ License - nucleoapp.com/license/
   background-color: #FFFFFF;
   margin-bottom: 10px;
   padding: 4px;
-  border-radius: 50% !important;
+  border-radius:10% !important;
   max-width: 100%;
 }
 
@@ -5810,8 +5828,10 @@ License - nucleoapp.com/license/
 
 .footer {
   background-attachment: fixed;
+  background-color: rgba(9, 143, 44, 1.0) !important;
   position: relative;
   line-height: 20px;
+  color: white;
 }
 
 .footer .footer-nav ul {
@@ -5833,7 +5853,7 @@ License - nucleoapp.com/license/
 }
 
 .footer nav>ul a:not(.btn) {
-  color: #777777;
+  color: white;
   display: block;
   margin-bottom: 3px;
   line-height: 1.6;
@@ -5841,6 +5861,18 @@ License - nucleoapp.com/license/
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.fundo_slides{
+
+    background-color: rgba(9, 143, 44, 0.7) !important;
+    padding-top: 3px;
+
+}
+.mid{
+
+    background-color: rgba(9, 143, 44, 0.2) !important;
+
 }
 
 .footer nav>ul a:not(.btn):hover,
@@ -8222,6 +8254,12 @@ License - nucleoapp.com/license/
     width: 60%;
     height: 90%;
 }
+
+
+
+
+.mySlides {display:none;}
+
 
 
 /*# sourceMappingURL=kit-free.css.map */
